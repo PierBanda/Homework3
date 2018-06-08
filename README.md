@@ -24,3 +24,23 @@ Spostarsi nella Directory **Homework3** ed eseguire **build.sh**:
 ```
 cd Homework3 && ./build.sh
 ```
+
+Eseguire la **bag**:
+```
+codice
+```
+
+Caricare il visualizzatore:
+```
+codice
+```
+
+Fare partire la bag:
+```
+codice
+```
+
+Eseguire lo script per view e cluster:
+```
+codice
+```

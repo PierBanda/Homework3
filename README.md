@@ -11,6 +11,7 @@ Successivamente verranno visualizzati e clusterizzati i punti ricavati.
 
 ## Prerequisiti
 **ORB_SLAM:** https://github.com/raulmur/ORB_SLAM2
+
 **BAG:** http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/vicon_room1/V1_01_easy/V1_01_easy.bag
 
 ## Istruzioni

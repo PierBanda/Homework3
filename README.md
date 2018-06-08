@@ -14,11 +14,11 @@ Successivamente verranno visualizzati e clusterizzati i punti ricavati.
 -------------------------------------------------------------------------
 ## Istruzioni
 Aprire il Terminale e scaricare la Repository **Homework3**:
-'''javascript
+```
 git clone https://github.com/PierBanda/Homework3.git
-'''
+```
 
 Spostarsi nella Directory **Homework3** ed eseguire **build.sh**:
-'''javascript
+```
 cd Homework3 && ./build.sh
-'''
+```

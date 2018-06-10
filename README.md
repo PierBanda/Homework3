@@ -22,6 +22,8 @@ cd git
 sudo apt-get install -y libglew-dev cmake
 git clone https://github.com/stevenlovegrove/Pangolin.git
 git clone https://github.com/raulmur/ORB_SLAM2.git
+git clone https://github.com/PierBanda/Homework3.git
+cp -r -v Homework3/ORB_SLAM2
 cd Pangolin
 mkdir build && cd build
 cmake ..
@@ -38,6 +40,11 @@ chmod +x build_ros.sh
 Aprire il Terminale e scaricare la Repository **Homework3**:
 ```
 git clone https://github.com/PierBanda/Homework3.git
+```
+
+Copiare i seguenti file nella d:
+```
+cd Homework3 && ./build.sh
 ```
 
 Spostarsi nella Directory **Homework3** ed eseguire **build.sh**:

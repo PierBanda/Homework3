@@ -14,6 +14,7 @@ distanza Euclidea e visualizzarne il risultato eseguendo uno script.
 
 ## Prerequisiti
 Prima di procedere controllare i vari requisiti alla pagina di **ORB_SLAM:** https://github.com/raulmur/ORB_SLAM2
+è richiesto ROS
 
 ## Installazione
 Aprire un Terminale ed eseguire i seguenti comandi:

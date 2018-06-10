@@ -37,16 +37,6 @@ chmod +x build_ros.sh
 ./build_ros.sh
 ```
 
-Eseguire il nodo **roscore**:
-```
-roscore
-```
-
-Eseguire il nodo **roscore**:
-```
-roscore
-```
-
 Eseguire la **bag**:
 ```
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH/ORB_SLAM2/Examples/ROS

@@ -62,3 +62,18 @@ chamod +x pclClustering.sh
 ```
 
 ## Immagini dimostrative
+<img src="UNIVR/Desktop/ImmaginiHW3/bag.jpg"
+     alt="bag image"
+     style="float: left; margin-right: 10px;" />
+<img src="UNIVR/Desktop/ImmaginiHW3/orbslam.jpg"
+     alt="orbslam image"
+     style="float: left; margin-right: 10px;" />
+<img src="UNIVR/Desktop/ImmaginiHW3/map_saved.jpg"
+     alt="map image"
+     style="float: left; margin-right: 10px;" />
+<img src="UNIVR/Desktop/ImmaginiHW3/view.jpg"
+     alt="view image"
+     style="float: left; margin-right: 10px;" />
+<img src="UNIVR/Desktop/ImmaginiHW3/cluster.jpg"
+     alt="cluster image"
+     style="float: left; margin-right: 10px;" />

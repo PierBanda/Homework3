@@ -1,5 +1,7 @@
 echo "Configuring and building Thirdparty/DBoW2 ..."
 
+mkdir pclFile
+
 cd Thirdparty/DBoW2
 mkdir build
 cd build

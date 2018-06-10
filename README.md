@@ -60,8 +60,17 @@ chamod +x pclClustering.sh
 ```
 
 ## Immagini dimostrative
+Visualizzazione della bag:
 ![Bag Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/bag.jpg "Bag Image")
+
+Visualizzazione dei punti:
 ![Orbslam Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/orbslam.jpg "Orbslam Image")
+
+Visualizzazione salvataggio mappa:
 ![Map Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/map_saved.jpg "Map Image")
+
+Visualizzazione point cloud:
 ![View Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/view.jpg "View Image")
+
+Visualizzazione cluster:
 ![Cluster Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/cluster.jpg "Cluster Image")

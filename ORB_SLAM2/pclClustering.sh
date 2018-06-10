@@ -1,6 +1,6 @@
 echo "opening pcl viewer"
 
-gnome-terminal --tab -e './Examples/clustering/clustering pcdFile/myCloud.pcd 0.26'
+./Examples/clustering/clustering $1 $2 &
 
 
-gnome-terminal --tab -e './Examples/cloudView/cloudView pcdFile/myCloud.pcd'
+./Examples/cloudView/cloudView $1 &

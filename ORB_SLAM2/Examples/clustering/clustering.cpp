@@ -78,7 +78,7 @@ int main(int argc, char **argv)
     viewer->addPointCloud<pcl::PointXYZ>(cloud_cluster, cluster_color, sbuf.str());
     sbuf << ".pcd";
     std::stringstream filePath;
-    filePath << "pcdFile/";
+    filePath << "pclFile/";
     filePath << sbuf.str();
     pcl::io::savePCDFileASCII( filePath.str(), *cloud_cluster);
     j++;

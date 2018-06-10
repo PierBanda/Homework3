@@ -37,14 +37,9 @@ chmod +x build_ros.sh
 ./build_ros.sh
 ```
 
-Aprire il Terminale e scaricare la Repository **Homework3**:
+Eseguire il nodo **roscore**:
 ```
-git clone https://github.com/PierBanda/Homework3.git
-```
-
-Spostarsi nella Directory **Homework3** ed eseguire **build.sh**:
-```
-cd Homework3 && ./build.sh
+roscore
 ```
 
 Eseguire il nodo **roscore**:

@@ -46,7 +46,7 @@ Fare partire la **bag**:
 rosbag play --pause V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
 ```
 
-Spostarsi nella direcroty ORB_SLAM2 ed eseguire lo script per view e cluster:
+Spostarsi nella direcroty ORB_SLAM2 ed eseguire lo script per **view** e **cluster**:
 ```
 ./pclClustering.sh
 ```

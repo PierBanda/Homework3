@@ -13,7 +13,7 @@ Successivamente sarà possibile clusterizzare i punti dal file PCL risultato, in
 distanza Euclidea e visualizzarne il risultato eseguendo uno script.
 
 ## Prerequisiti
-**ORB_SLAM:** https://github.com/raulmur/ORB_SLAM2
+Prima di procedere controllare i vari requisiti alla pagina di **ORB_SLAM:** https://github.com/raulmur/ORB_SLAM2
 
 ## Installazione
 Aprire un Terminale ed eseguire i seguenti comandi:
@@ -22,7 +22,6 @@ scaricare le repository originali:
 ```
 mkdir git
 cd git
-sudo apt-get install -y libglew-dev cmake
 git clone https://github.com/stevenlovegrove/Pangolin.git
 git clone https://github.com/raulmur/ORB_SLAM2.git
 ```

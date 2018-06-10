@@ -57,5 +57,6 @@ rosbag play --pause (bag) /cam0/image_raw:=/camera/left/image_raw /cam1/image_ra
 
 Spostarsi nella direcroty ORB_SLAM2 ed eseguire lo script per **view** e **cluster**:
 ```
-./pclClustering.sh
+chamod +x pclClustering.sh
+./pclClustering.sh (PCL_FILE) (TOLLERANZA)
 ```

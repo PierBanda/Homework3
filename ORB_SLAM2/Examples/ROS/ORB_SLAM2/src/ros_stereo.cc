@@ -124,7 +124,7 @@ int main(int argc, char **argv)
     SLAM.SaveKeyFrameTrajectoryTUM("KeyFrameTrajectory_TUM_Format.txt");
     SLAM.SaveTrajectoryTUM("FrameTrajectory_TUM_Format.txt");
     SLAM.SaveTrajectoryKITTI("FrameTrajectory_KITTI_Format.txt");
-    SLAM.CreatePCD("PointCloudMap.pcd"); 
+    SLAM.CreatePCD("pclFile/PointCloudMap.pcd"); 
     //lancia clustering e pcl viewer
     usleep(500000);
 

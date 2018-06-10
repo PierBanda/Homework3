@@ -60,3 +60,5 @@ Spostarsi nella direcroty ORB_SLAM2 ed eseguire lo script per **view** e **clust
 chamod +x pclClustering.sh
 ./pclClustering.sh (PCL_FILE) (TOLLERANZA)
 ```
+
+## Immagini dimostrative

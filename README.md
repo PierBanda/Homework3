@@ -42,11 +42,6 @@ Aprire il Terminale e scaricare la Repository **Homework3**:
 git clone https://github.com/PierBanda/Homework3.git
 ```
 
-Copiare i seguenti file nella d:
-```
-cd Homework3 && ./build.sh
-```
-
 Spostarsi nella Directory **Homework3** ed eseguire **build.sh**:
 ```
 cd Homework3 && ./build.sh

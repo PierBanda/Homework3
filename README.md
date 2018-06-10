@@ -76,7 +76,7 @@ Elaborazione della nuvola di punti:
 Salvataggio della mappa:
 ![Map Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/map_saved.jpg "Map Image")
 
-Per poter clusterizzare il file pcl eseguire il seguente comando, all'interno di ORB_SLAM2, dove (PCL_FILE) è il percorso del file pcl e (TOLLERANZA) la tolleranza per l'estrattore dei cluster (espresso in metri):
+Per poter clusterizzare il file pcl eseguire il seguente comando, all'interno di ORB_SLAM2, dove (PCL_FILE) è il percorso del file pcl e (TOLLERANZA) la tolleranza per l'estrattore dei cluster (espresso in metri), i vari cluster verranno poi salvati nella cartella pclFile:
 ```
 chmod +x pclClustering.sh
 ./pclClustering.sh (PCL_FILE) (TOLLERANZA)

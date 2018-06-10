@@ -40,7 +40,7 @@ make
 cd ../..
 cd ORB_SLAM2
 chmod +x build.sh
-./buils.sh
+./build.sh
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:$(pwd)/Examples/ROS
 chmod +x build_ros.sh
 ./build_ros.sh

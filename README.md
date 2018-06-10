@@ -6,8 +6,9 @@ Pierluigi Bandino
 Remelli Thomas
 
 ## Descrizione ##
-L'Homework 3 consiste nell'elaborazione di una bag esistente per poi ricavarne un Point Cloud in un file PCL.
-Successivamente verranno visualizzati e clusterizzati i punti ricavati.
+Questo progetto rappresenta il terzo Homework del corso di Laboratorio Ciberfisico e consiste nell'elaborazione di una bag esistente per poi ricavarne un Point Cloud in un file PCL.
+Il normale codice sorgente di ORB SLAM verrà modificato per permettere di salvare la mappa alla chiusura tramite ctrl^C in un file PCL.
+Successivamente da questo file PCL verranno visualizzati e clusterizzati i punti ricavati.
 
 ## Prerequisiti
 **ORB_SLAM:** https://github.com/raulmur/ORB_SLAM2

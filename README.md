@@ -7,7 +7,7 @@ Remelli Thomas
 
 ## Descrizione ##
 Questo progetto fa parte terzo Homework del corso di Laboratorio Ciberfisico e consiste nell'elaborazione di una bag esistente per poi ricavarne un Point Cloud in un file PCL.
-Il codice sorgente di ORB SLAM2 verrà modificato per aggiungere la capacità di salvare la nuvola di punti, alla chiusura tramite ctrl^C, in un file PCL.
+Il codice sorgente di ORB SLAM2 verrà modificato per aggiungere la capacità di salvare la nuvola di punti, alla chiusura tramite ctrl^C, in un file PCL all'interno della cartella pclFile.
 
 Successivamente sarà possibile clusterizzare i punti dal file PCL risultato, in base alla
 distanza Euclidea e visualizzarne il risultato eseguendo uno script.

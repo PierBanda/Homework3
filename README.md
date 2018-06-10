@@ -15,6 +15,26 @@ Successivamente verranno visualizzati e clusterizzati i punti ricavati.
 **BAG:** http://robotics.ethz.ch/~asl-datasets/ijrr_euroc_mav_dataset/vicon_room1/V1_01_easy/V1_01_easy.bag
 
 ## Istruzioni
+Aprire un Terminale ed eseguire i seguenti:
+```
+mkdir git
+cd git
+sudo apt-get install -y libglew-dev cmake
+git clone https://github.com/stevenlovegrove/Pangolin.git
+git clone https://github.com/raulmur/ORB_SLAM2.git
+cd Pangolin
+mkdir build && cd build
+cmake ..
+make
+cd ../..
+cd ORB_SLAM2
+chamod +x build.sh
+./buils.sh
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:$(pwd)/Examples/ROS
+chmod +x build_ros.sh
+./build_ros.sh
+```
+
 Aprire il Terminale e scaricare la Repository **Homework3**:
 ```
 git clone https://github.com/PierBanda/Homework3.git
@@ -34,11 +54,6 @@ Eseguire la **bag**:
 ```
 export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH/ORB_SLAM2/Examples/ROS
 rosrun ORB_SLAM2 Stereo Vocabulary/ORBvoc.txt Examples/Stereo/EuRoC.yaml true
-```
-
-Caricare il **visualizzatore**:
-```
-rosrun ORB_SLAM2 Stereo PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE ONLINE_RECTIFICATION
 ```
 
 Fare partire la **bag**:

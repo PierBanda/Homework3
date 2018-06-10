@@ -27,20 +27,21 @@ cd Homework3 && ./build.sh
 
 Eseguire la **bag**:
 ```
-codice
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH/ORB_SLAM2/Examples/ROS
+rosrun ORB_SLAM2 Stereo Vocabulary/ORBvoc.txt Examples/Stereo/EuRoC.yaml true
 ```
 
 Caricare il visualizzatore:
 ```
-codice
+rosrun ORB_SLAM2 Stereo PATH_TO_VOCABULARY PATH_TO_SETTINGS_FILE ONLINE_RECTIFICATION
 ```
 
 Fare partire la bag:
 ```
-codice
+rosbag play --pause V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
 ```
 
-Eseguire lo script per view e cluster:
+Spostarsi nella direcroty ORB_SLAM2 ed eseguire lo script per view e cluster:
 ```
-codice
+./pclClustering.sh
 ```

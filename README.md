@@ -15,7 +15,7 @@ distanza Euclidea e visualizzarne il risultato eseguendo uno script.
 ## Prerequisiti
 **ORB_SLAM:** https://github.com/raulmur/ORB_SLAM2
 
-## Istruzioni
+## Installazione
 Aprire un Terminale ed eseguire i seguenti comandi:
 
 scaricare le repository originali:
@@ -45,6 +45,8 @@ export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:$(pwd)/Examples/ROS
 chmod +x build_ros.sh
 ./build_ros.sh
 ```
+
+## esecuzione
 aprire tre terminali
 Eseguire **roscore**:
 ```

@@ -49,9 +49,10 @@ export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:PATH/ORB_SLAM2/Examples/ROS
 rosrun ORB_SLAM2 Stereo Vocabulary/ORBvoc.txt Examples/Stereo/EuRoC.yaml true
 ```
 
-Fare partire la **bag**:
+Fare partire la **bag**.
+Al posto di (bag) inserire il bercorso della propria BAG.
 ```
-rosbag play --pause V1_01_easy.bag /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
+rosbag play --pause (bag) /cam0/image_raw:=/camera/left/image_raw /cam1/image_raw:=/camera/right/image_raw
 ```
 
 Spostarsi nella direcroty ORB_SLAM2 ed eseguire lo script per **view** e **cluster**:

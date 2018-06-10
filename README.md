@@ -62,6 +62,7 @@ chamod +x pclClustering.sh
 ```
 
 ## Immagini dimostrative
+![Drag Racing](/Users/UNIVR/Desktop/ImmaginiHW3/bag.jpg)
 <img src="/Users/UNIVR/Desktop/ImmaginiHW3/bag.jpg"
      alt="bag image"
      style="float: left; margin-right: 10px;" />

@@ -60,19 +60,8 @@ chamod +x pclClustering.sh
 ```
 
 ## Immagini dimostrative
-![Drag Racing](/Users/UNIVR/Desktop/ImmaginiHW3/bag.jpg)
-<img src="/Users/UNIVR/Desktop/ImmaginiHW3/bag.jpg"
-     alt="bag image"
-     style="float: left; margin-right: 10px;" />
-<img src="/Users/UNIVR/Desktop/ImmaginiHW3/orbslam.jpg"
-     alt="orbslam image"
-     style="float: left; margin-right: 10px;" />
-<img src="/Users/UNIVR/Desktop/ImmaginiHW3/map_saved.jpg"
-     alt="map image"
-     style="float: left; margin-right: 10px;" />
-<img src="/Users/UNIVR/Desktop/ImmaginiHW3/view.jpg"
-     alt="view image"
-     style="float: left; margin-right: 10px;" />
-<img src="/Users/UNIVR/Desktop/ImmaginiHW3/cluster.jpg"
-     alt="cluster image"
-     style="float: left; margin-right: 10px;" />
+![Bag Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/bag.jpg "Bag Image")
+![Orbslam Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/orbslam.jpg "Orbslam Image")
+![Map Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/map_saved.jpg "Map Image")
+![View Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/view.jpg "View Image")
+![Cluster Image](https://github.com/PierBanda/Homework3/blob/master/ImmaginiHW3/cluster.jpg "Cluster Image")
